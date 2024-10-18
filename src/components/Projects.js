@@ -4,18 +4,14 @@ const Projects = () => {
       title: "TheThoughtSpace",
       description:
         "Write your unsaid thoughts and let it out. Send it to someone or simply let it float in",
-      image: (
-        <img src={`${process.env.PUBLIC_URL}/Project1.gif`} alt="Project GIF" />
-      ), // Placeholder image URL
+      image: "/Project1.gif", 
       link: "https://thethoughtspaces.com/",
     },
     {
       title: "Trading Journal App",
       description:
         "A web-based platform to track, analyze, and improve trading performance",
-      image: (
-        <img src={`${process.env.PUBLIC_URL}/Project2.gif`} alt="Project GIF" />
-      ), // Placeholder image URL
+      image: "/Project2.gif", 
       link: "https://openai.com",
     },
   ];
@@ -30,7 +26,7 @@ const Projects = () => {
             className="bg-jetBlack shadow-md rounded-lg overflow-hidden transition-transform transform "
           >
             <img
-              src={project.image}
+              src={project.image} // Directly use the string path here
               alt={project.title}
               className="w-full h-64 object-cover"
             />
