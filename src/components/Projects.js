@@ -4,14 +4,18 @@ const Projects = () => {
       title: "TheThoughtSpace",
       description:
         "Write your unsaid thoughts and let it out. Send it to someone or simply let it float in",
-      image: "../Project1.gif", // Placeholder image URL
+      image: (
+        <img src={`${process.env.PUBLIC_URL}/Project1.gif`} alt="Project GIF" />
+      ), // Placeholder image URL
       link: "https://thethoughtspaces.com/",
     },
     {
       title: "Trading Journal App",
       description:
         "A web-based platform to track, analyze, and improve trading performance",
-      image: "../Project2.gif", // Placeholder image URL
+      image: (
+        <img src={`${process.env.PUBLIC_URL}/Project2.gif`} alt="Project GIF" />
+      ), // Placeholder image URL
       link: "https://openai.com",
     },
   ];
