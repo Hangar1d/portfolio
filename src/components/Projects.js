@@ -4,14 +4,14 @@ const Projects = () => {
       title: "TheThoughtSpace",
       description:
         "Write your unsaid thoughts and let it out. Send it to someone or simply let it float in",
-      image: "/Project1.gif", 
+      image: `${process.env.PUBLIC_URL}/Project1.gif`, // Use the image path with process.env.PUBLIC_URL
       link: "https://thethoughtspaces.com/",
     },
     {
       title: "Trading Journal App",
       description:
         "A web-based platform to track, analyze, and improve trading performance",
-      image: "/Project2.gif", 
+      image: `${process.env.PUBLIC_URL}/Project2.gif`, // Use the image path with process.env.PUBLIC_URL
       link: "https://openai.com",
     },
   ];
@@ -26,7 +26,7 @@ const Projects = () => {
             className="bg-jetBlack shadow-md rounded-lg overflow-hidden transition-transform transform "
           >
             <img
-              src={project.image} // Directly use the string path here
+              src={project.image} // Using project.image here, which contains process.env.PUBLIC_URL
               alt={project.title}
               className="w-full h-64 object-cover"
             />
