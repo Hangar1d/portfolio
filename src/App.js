@@ -1,17 +1,10 @@
-import Home from "./components/Home";
-import About from "./components/About";
-import Blog from "./components/Blog";
-import Projects from "./components/Projects";
-import Footer from "./components/Footer";
+import React from "react";
+import Desktop from "./components/Desktop";
 
 function App() {
   return (
-    <div>
-      <Home />
-      <About />
-      <Projects />
-      <Blog />
-      <Footer />
+    <div className="w-screen h-screen overflow-hidden">
+      <Desktop />
     </div>
   );
 }
