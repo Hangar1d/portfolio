@@ -9,7 +9,7 @@ const TerminalContent = ({ contentId }) => {
           <div className="mb-4">
             <span className="text-[#00FFC8]">khan@portfolio:~$</span> whoami
             <br />
-            Hey there! I’m Khan—your friendly neighborhood code-cruncher and
+            Hey there! I’m Khangarid Bat-Ulzii, your friendly neighborhood code-cruncher and
             day-trader. I’m all about blending creativity and tech smarts to
             build cool stuff that actually feels good to use.
             <br />
@@ -50,6 +50,18 @@ const TerminalContent = ({ contentId }) => {
             <br />
             <a
               href="https://khanalysispro.web.app/"
+              target="_blank"
+              rel="noreferrer"
+              className="underline text-blue-400 hover:text-blue-300"
+            >
+              Open Project
+            </a>
+            <br />
+            <br />
+            [DrinkFunGames] - Drink FunGames
+            <br/>
+            <a
+              href="https://fundrinkgames.web.app/"
               target="_blank"
               rel="noreferrer"
               className="underline text-blue-400 hover:text-blue-300"

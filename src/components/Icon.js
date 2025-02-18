@@ -1,12 +1,12 @@
 import React from "react";
 
-const Icon = ({ label, onDoubleClick, dock = false }) => {
+const Icon = ({ label, onClick, dock = false }) => {
   return (
     <div
       className={`flex flex-col items-center text-center cursor-pointer select-none group ${
         dock ? "transform transition-transform hover:scale-125" : ""
       }`}
-      onDoubleClick={onDoubleClick}
+      onClick={onClick}
     >
       {/* Folder icon */}
       <div className="w-16 h-14 bg-gradient-to-b from-blue-300 to-blue-500 rounded-md mb-2 relative group-hover:scale-105 transition-transform duration-200 shadow-lg">

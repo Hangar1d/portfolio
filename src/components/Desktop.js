@@ -22,7 +22,7 @@ const Desktop = () => {
     { id: "contact", label: "Contact" },
   ];
 
-  const handleIconDoubleClick = (id) => {
+  const handleIconClick = (id) => {
     setOpenWindow(id);
   };
 
@@ -45,7 +45,7 @@ const Desktop = () => {
             <Icon
               key={icon.id}
               label={icon.label}
-              onDoubleClick={() => handleIconDoubleClick(icon.id)}
+              onClick={() => handleIconClick(icon.id)}
             />
           ))}
         </div>
