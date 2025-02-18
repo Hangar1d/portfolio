@@ -34,7 +34,7 @@ const TerminalContent = ({ contentId }) => {
             <span className="text-[#00FFC8]">khan@portfolio:~$</span> ls
             projects
             <br />
-            [TheThoughtSpace] - A platform to share unsaid thoughts
+            [TheThoughtSpace] - A platform to share your unsaid thoughts
             <br />
             <a
               href="https://thethoughtspaces.com/"
