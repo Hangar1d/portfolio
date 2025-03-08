@@ -49,7 +49,7 @@ const TerminalContent = ({ contentId }) => {
             [Khanalysis] - Trading Signal Web App
             <br />
             <a
-              href="https://khanalysispro.web.app/"
+              href="https://khanalysis.live/"
               target="_blank"
               rel="noreferrer"
               className="underline text-blue-400 hover:text-blue-300"
@@ -61,7 +61,7 @@ const TerminalContent = ({ contentId }) => {
             [DrinkFunGames] - Drink FunGames
             <br/>
             <a
-              href="https://fundrinkgames.web.app/"
+              href="https://uuhuu.xyz/"
               target="_blank"
               rel="noreferrer"
               className="underline text-blue-400 hover:text-blue-300"
