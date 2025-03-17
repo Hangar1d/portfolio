@@ -9,20 +9,17 @@ const TerminalContent = ({ contentId }) => {
           <div className="mb-4">
             <span className="text-[#00FFC8]">khan@portfolio:~$</span> whoami
             <br />
-            Hey there! I’m Khangarid Bat-Ulzii, your friendly neighborhood code-cruncher and
-            day-trader. I’m all about blending creativity and tech smarts to
-            build cool stuff that actually feels good to use.
-            <br />
-            <br />
-            When I’m not knee-deep in code, I’m exploring the newest frameworks,
-            poking at interesting APIs, or sharpening my trading game. I love
-            tackling tricky problems, learning new tricks, and pushing my skills
-            just a bit further every day.
-            <br />
-            <br />
-            On top of that, I’m a big fan of teaming up, swapping ideas, and
-            turning wild concepts into slick, real-world solutions. Ready to
-            make something awesome together?
+Hi, I'm Khan—a computer science student, front-end developer, and tech enthusiast with a passion for building sleek, intuitive web experiences. I'm currently pursuing my degree in Software Engineering at Kookmin University in Korea, blending academic rigor with real-world coding projects.
+ <br />
+My expertise lies in ReactJS, NodeJS, Tailwind CSS, and I'm continually diving into new technologies to stay ahead. I enjoy solving complex problems and turning innovative ideas into reality through clean, efficient code.
+ <br />
+Beyond coding, I'm an active forex trader, always analyzing charts and market trends. When I'm not immersed in tech or trading, you can find me playing basketball, exploring trendy coffee shops, or gaming with friends.
+ <br />
+I believe in continuous growth—whether it's through mastering data structures, hitting the gym.
+ <br />
+Feel free to explore my projects and reach out if you’d like to connect!
+
+
           </div>
         </>
       );
