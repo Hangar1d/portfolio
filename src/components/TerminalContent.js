@@ -9,7 +9,7 @@ const TerminalContent = ({ contentId }) => {
           <div className="mb-4">
             <span className="text-[#00FFC8]">khan@portfolio:~$</span> whoami
             <br />
-Hi, I'm Khan—a computer science student, front-end developer, and tech enthusiast with a passion for building sleek, intuitive web experiences. I'm currently pursuing my degree in Software Engineering at Kookmin University in Korea, blending academic rigor with real-world coding projects.
+Hi, I'm Khangarid—a computer science student, front-end developer, and tech enthusiast with a passion for building sleek, intuitive web experiences. I'm currently pursuing my degree in Software Engineering at Kookmin University in Korea, blending academic rigor with real-world coding projects.
  <br />
 My expertise lies in ReactJS, NodeJS, Tailwind CSS, and I'm continually diving into new technologies to stay ahead. I enjoy solving complex problems and turning innovative ideas into reality through clean, efficient code.
  <br />
